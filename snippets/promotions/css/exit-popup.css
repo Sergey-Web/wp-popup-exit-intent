@@ -1,0 +1,54 @@
+.modal-potential {
+  padding: 50px 20px 120px 20px;
+  background: #ddd;
+  border: 2px solid #000;
+}
+
+.modal-potential__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.modal-potential__title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-potential__text {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.modal-potential__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-potential__button {
+  color: #000;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  height: initial;
+  padding: 6px 20px;
+}
+
+.modal-potential__time {
+  color: #fff;
+}
+
+.modal-potential__wrap-close {
+  position: relative;
+  text-align: right;
+  top: -30px;
+}
+
+.modal-potential__close {
+  color: #000;
+  font-size: 1.5rem;
+}
